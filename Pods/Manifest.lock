@@ -1,16 +1,36 @@
 PODS:
+  - EncryptedCoreData (3.1):
+    - SQLCipher (~> 3.4.0)
   - LazyImage (6.7.3)
+  - SQLCipher (3.4.2):
+    - SQLCipher/standard (= 3.4.2)
+  - SQLCipher/common (3.4.2)
+  - SQLCipher/standard (3.4.2):
+    - SQLCipher/common
 
 DEPENDENCIES:
+  - EncryptedCoreData (from `https://github.com/project-imas/encrypted-core-data.git`)
   - LazyImage
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - LazyImage
+    - SQLCipher
+
+EXTERNAL SOURCES:
+  EncryptedCoreData:
+    :git: https://github.com/project-imas/encrypted-core-data.git
+
+CHECKOUT OPTIONS:
+  EncryptedCoreData:
+    :commit: b97ffaf2f19dad4d1558bc9b0668cc2e09d17347
+    :git: https://github.com/project-imas/encrypted-core-data.git
 
 SPEC CHECKSUMS:
+  EncryptedCoreData: f6762fb05f88a52f36c5648659abc91b57f244b4
   LazyImage: 7a3344a01945233930024455ef15d3e29eb53d0f
+  SQLCipher: f9fcf29b2e59ced7defc2a2bdd0ebe79b40d4990
 
-PODFILE CHECKSUM: 0573a9a09bc3c82292a820ffe2f2dfd3816b2a49
+PODFILE CHECKSUM: d530f7a44f279c35fac91ba42cb0add6964bb5b8
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

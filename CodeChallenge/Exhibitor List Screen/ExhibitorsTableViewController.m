@@ -116,7 +116,7 @@ static NSString *ExhibitorSummaryCellIdentifier = @"ExhibitorSummaryCell";
 
 #pragma mark - UITableViewDelegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath // Gerard
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ExhibitorSummaryCell *cell = (ExhibitorSummaryCell *)[self.tableView cellForRowAtIndexPath:indexPath];
     Exhibitor *exhibitor = cell.exhibitor;

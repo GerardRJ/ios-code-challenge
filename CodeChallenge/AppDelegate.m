@@ -5,6 +5,10 @@
 
 #import "AppDelegate.h"
 
+#import <os/log.h>
+
+#import "EncryptedStore.h"
+
 @interface AppDelegate ()
 
 @property (strong, nonatomic, readwrite) NSPersistentContainer *persistentContainer;
@@ -16,18 +20,52 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-
+    
     self.persistentContainer = [[NSPersistentContainer alloc] initWithName:@"ExhibitorsModel"];
+    
+    [self createPersistentStore];
+    
+    return YES;
+}
+
+/**
+ * This method deletes the persistent store and then creates a new one.
+ *
+ * @note https://stackoverflow.com/questions/1077810/delete-reset-all-entries-in-core-data
+ */
+- (void)recreatePersistentStore
+{
+    NSArray *stores = [[self.persistentContainer persistentStoreCoordinator] persistentStores];
+    os_log_debug(OS_LOG_DEFAULT, "Stores: %{public}@", stores);
+    
+    for(NSPersistentStore *store in stores) {
+        [[self.persistentContainer persistentStoreCoordinator] removePersistentStore:store error:nil];
+        [[NSFileManager defaultManager] removeItemAtPath:store.URL.path error:nil];
+    }
+    
+    [self createPersistentStore];
+}
+
+/**
+ * This method creates a persistent store.
+ */
+- (void)createPersistentStore
+{
+    NSDictionary *cOpts = @{
+                            [EncryptedStore optionPassphraseKey] : @"123deOliveira4", //your Key
+                            [EncryptedStore optionFileManager] : [EncryptedStoreFileManager defaultManager]
+                            };
+    NSPersistentStoreDescription *desc = [EncryptedStore makeDescriptionWithOptions:cOpts configuration:@"Default" error:nil];
+    
+    [self.persistentContainer setPersistentStoreDescriptions:@[desc]];
+    
     [self.persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *description, NSError *error) {
         if (error != nil) {
             NSLog(@"Failed to load Core Data stack: %@", error);
             abort();
         }
     }];
-
-    return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
