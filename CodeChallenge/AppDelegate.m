@@ -7,6 +7,8 @@
 
 @interface AppDelegate ()
 
+@property (strong, nonatomic, readwrite) NSPersistentContainer *persistentContainer;
+
 @end
 
 @implementation AppDelegate
@@ -14,6 +16,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    self.persistentContainer = [[NSPersistentContainer alloc] initWithName:@"ExhibitorsModel"];
+    [self.persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *description, NSError *error) {
+        if (error != nil) {
+            NSLog(@"Failed to load Core Data stack: %@", error);
+            abort();
+        }
+    }];
+
     return YES;
 }
 

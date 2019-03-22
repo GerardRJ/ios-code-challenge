@@ -1,0 +1,16 @@
+PODS:
+  - LazyImage (6.7.3)
+
+DEPENDENCIES:
+  - LazyImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LazyImage
+
+SPEC CHECKSUMS:
+  LazyImage: 7a3344a01945233930024455ef15d3e29eb53d0f
+
+PODFILE CHECKSUM: 0573a9a09bc3c82292a820ffe2f2dfd3816b2a49
+
+COCOAPODS: 1.5.3
