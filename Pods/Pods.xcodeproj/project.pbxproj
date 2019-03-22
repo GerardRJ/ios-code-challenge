@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		01EF17FA0C39134E228855E96F313931 /* LazyImage+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD01FD04C0173E8CC86C3619AA8B640 /* LazyImage+Network.swift */; };
-		0BD39030FA67FBC1DDA56B70FE8DF93D /* LazyImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E6451781F7B50EC44D06CA08151BF9 /* LazyImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD39030FA67FBC1DDA56B70FE8DF93D /* LazyImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC4D0335C254DBDB11D3A785A39530B /* LazyImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21DADC08FBB846EA091D4012107E93C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		24F79B2E69D2179FFFE67ED1393BA99F /* Pods-CodeChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 863012158BA3491F0B9560973D38EBD6 /* Pods-CodeChallenge-dummy.m */; };
+		24F79B2E69D2179FFFE67ED1393BA99F /* Pods-CodeChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6983B77BBDFCE36C8170CBD92CA593B1 /* Pods-CodeChallenge-dummy.m */; };
 		264ADC4A2C712FE227F889C54D42232B /* LazyImage+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A3E90EE36AB485D5905E6819B1709B /* LazyImage+Error.swift */; };
 		2BD1EA9A5CF7F726CADCE09DBA3EC1DC /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07783B4169967D664AFFFEA4FFAC514 /* LazyImageView.swift */; };
 		3AE7B13A2713A12C37A2024DA8243F62 /* LazyImage+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FCA2195F8A4941300820C55FC2D01 /* LazyImage+Loader.swift */; };
 		3F97089662DFABB0A1F10395F1C98FB9 /* LazyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E536B290B112E9E4770EE85729463 /* LazyImage.swift */; };
 		430B054592CF8A278C5D072C92890114 /* LazyImage+Resizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93822E51B23652EFF0D5AD2D21598DF9 /* LazyImage+Resizing.swift */; };
-		473BFD7A86AE1E2980D46DE10F8D2AF9 /* Pods-CodeChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F6CE6EB91F755D4AE739961708FC94 /* Pods-CodeChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		494D09F1B10DD344579BEAED8C0DC5D7 /* Pods-CodeChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F986218315F6EB28051F42551945376 /* Pods-CodeChallengeTests-dummy.m */; };
-		73FB297C16179A378BEEEA87C6944DB4 /* Pods-CodeChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FACBAB4383A7D71E3DC26C291456AD /* Pods-CodeChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EFF12968CE8D291870F95E2EBC63B7F /* Pods-CodeChallengeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E674519C951B7CA917CDB702B77B00E /* Pods-CodeChallengeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		473BFD7A86AE1E2980D46DE10F8D2AF9 /* Pods-CodeChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1388337B74A8003CD721ECC217C24BA /* Pods-CodeChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494D09F1B10DD344579BEAED8C0DC5D7 /* Pods-CodeChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49BBE634F8701E7EE703D453E3917 /* Pods-CodeChallengeTests-dummy.m */; };
+		73FB297C16179A378BEEEA87C6944DB4 /* Pods-CodeChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3651540792D56712E5E3CC62187DDD5 /* Pods-CodeChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFF12968CE8D291870F95E2EBC63B7F /* Pods-CodeChallengeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE7ACF290FE691D7E1406D46761F784 /* Pods-CodeChallengeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A253E4D4D9F47B24E891B24E0AA40801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		B9400DD0952D2206B528E8375089BD56 /* LazyImage+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE224593191D65B158D1B8FC010A9F1 /* LazyImage+Storage.swift */; };
 		CCB496346028F60644CE599F3BEE01A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CE6F3D2479AA77E7E28B8779763C560C /* LazyImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E34B7EEDE8E1EF4BDC6BE95A3894F7A /* LazyImage-dummy.m */; };
+		CE6F3D2479AA77E7E28B8779763C560C /* LazyImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B430DA09DABB864EEC1E99C532C6D12 /* LazyImage-dummy.m */; };
 		DC8995A0C67AB271901B76A9D159EACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E21F5718A39BC186D2DD02B46D0F3020 /* Pods-CodeChallengeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F2FEA47B145A67AFF0DAED0722A952 /* Pods-CodeChallengeUITests-dummy.m */; };
+		E21F5718A39BC186D2DD02B46D0F3020 /* Pods-CodeChallengeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2A3C43ED5089D9409F28B15E3CAAD /* Pods-CodeChallengeUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,55 +53,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01FCC8DCBDA4C79925CED2108F5E7968 /* Pods-CodeChallengeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodeChallengeUITests.modulemap"; sourceTree = "<group>"; };
-		0E45BD8C6C84B97EBC2874D412075B0F /* Pods-CodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		109077B80351DB7AB26BBB6EE66A755A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10E6451781F7B50EC44D06CA08151BF9 /* LazyImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyImage-umbrella.h"; sourceTree = "<group>"; };
-		1163A8748BC7AF1087CE87D6D4DA09CC /* Pods-CodeChallengeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeChallengeUITests-frameworks.sh"; sourceTree = "<group>"; };
-		144FF38314EE98C0A9E9017EB3243B8D /* Pods-CodeChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
+		012D372268233350A6558BD1B97B3F0A /* Pods-CodeChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
+		0ECE56C2DB820AE5916D453FD85B936A /* Pods-CodeChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1124186F8970152B5B356FDAA3E8BE3F /* Pods-CodeChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		119C98FBC5112A156E8A21505F8C8391 /* Pods-CodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		13F7F51D573EDF02D99A9438ECAA8B9C /* Pods-CodeChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodeChallengeTests.modulemap"; sourceTree = "<group>"; };
 		16A3E90EE36AB485D5905E6819B1709B /* LazyImage+Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Error.swift"; path = "Library/LazyImage+Error.swift"; sourceTree = "<group>"; };
-		187F2256BAD48E2F44D4EAE963B535E8 /* Pods-CodeChallengeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallengeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1BD024F6CBEBB87BB7EF221CC9D72344 /* Pods_CodeChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallengeUITests.framework; path = "Pods-CodeChallengeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E393E8C33E32803100AFD88452F14A0 /* Pods-CodeChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodeChallengeTests.modulemap"; sourceTree = "<group>"; };
-		217DC7129F7C500AC899F63978936128 /* LazyImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyImage-prefix.pch"; sourceTree = "<group>"; };
-		22B74C2593C7C8D9EAA4FE601A593F25 /* Pods-CodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2CB8E889C54C1F6639971B8A9A587CB2 /* Pods-CodeChallengeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeChallengeTests-frameworks.sh"; sourceTree = "<group>"; };
-		2D1D074C3EA03E29D0EA91EE27AEE979 /* Pods-CodeChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D341AF9CD8E042D33FF24BC2B3E7F37 /* Pods-CodeChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2EB4A1533A725E011AF39AFE987F8C13 /* Pods-CodeChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		31F2FEA47B145A67AFF0DAED0722A952 /* Pods-CodeChallengeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeChallengeUITests-dummy.m"; sourceTree = "<group>"; };
-		3B6C27A6B85CD1245A180A940BBDB48F /* Pods-CodeChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		42F6CE6EB91F755D4AE739961708FC94 /* Pods-CodeChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodeChallengeTests-umbrella.h"; sourceTree = "<group>"; };
+		23B49BBE634F8701E7EE703D453E3917 /* Pods-CodeChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeChallengeTests-dummy.m"; sourceTree = "<group>"; };
+		283A99EED8D39F1BC35459831992A1B8 /* Pods-CodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BCB96C5C0834F3D26F0B1B3EA346DF8 /* Pods-CodeChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeChallenge-frameworks.sh"; sourceTree = "<group>"; };
 		4AE224593191D65B158D1B8FC010A9F1 /* LazyImage+Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Storage.swift"; path = "Library/LazyImage+Storage.swift"; sourceTree = "<group>"; };
-		5174F26A5979E5417F4E4CD963785986 /* Pods-CodeChallengeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeChallengeTests-resources.sh"; sourceTree = "<group>"; };
-		56D024D33125501FED9D24452072CCE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66C5FA6061DDD340220EA83ABF3948A2 /* Pods-CodeChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodeChallenge.modulemap"; sourceTree = "<group>"; };
+		546EF73264B83FF8305B15DCAB669F17 /* Pods-CodeChallengeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeChallengeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AF3A1C5492777E2884CD7BE642298F7 /* Pods-CodeChallengeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallengeUITests-Info.plist"; sourceTree = "<group>"; };
+		6189E2352438C18F26EE6607FC86B4A2 /* LazyImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LazyImage.modulemap; sourceTree = "<group>"; };
 		697E536B290B112E9E4770EE85729463 /* LazyImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyImage.swift; path = Library/LazyImage.swift; sourceTree = "<group>"; };
-		6A95740CFBC0783B1E8025AFC4593095 /* Pods-CodeChallengeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeChallengeUITests-resources.sh"; sourceTree = "<group>"; };
-		6AB8F7586BE32DB286064D4860513D27 /* Pods-CodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
-		6E674519C951B7CA917CDB702B77B00E /* Pods-CodeChallengeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodeChallengeUITests-umbrella.h"; sourceTree = "<group>"; };
-		7E34B7EEDE8E1EF4BDC6BE95A3894F7A /* LazyImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LazyImage-dummy.m"; sourceTree = "<group>"; };
-		863012158BA3491F0B9560973D38EBD6 /* Pods-CodeChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeChallenge-dummy.m"; sourceTree = "<group>"; };
+		6983B77BBDFCE36C8170CBD92CA593B1 /* Pods-CodeChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeChallenge-dummy.m"; sourceTree = "<group>"; };
+		6B1A5F6236D8841A114324F97D469D2D /* Pods-CodeChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodeChallenge.modulemap"; sourceTree = "<group>"; };
+		6B95915C3343CE6C8E21ACF5294E2726 /* Pods-CodeChallengeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodeChallengeUITests.modulemap"; sourceTree = "<group>"; };
+		6CE7ACF290FE691D7E1406D46761F784 /* Pods-CodeChallengeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodeChallengeUITests-umbrella.h"; sourceTree = "<group>"; };
 		8AD01FD04C0173E8CC86C3619AA8B640 /* LazyImage+Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Network.swift"; path = "Library/LazyImage+Network.swift"; sourceTree = "<group>"; };
+		8B430DA09DABB864EEC1E99C532C6D12 /* LazyImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LazyImage-dummy.m"; sourceTree = "<group>"; };
+		8DC4D0335C254DBDB11D3A785A39530B /* LazyImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyImage-umbrella.h"; sourceTree = "<group>"; };
+		90CDD93945DCE46ECD7FBAD23FD51DE6 /* Pods-CodeChallenge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallenge-Info.plist"; sourceTree = "<group>"; };
 		93822E51B23652EFF0D5AD2D21598DF9 /* LazyImage+Resizing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Resizing.swift"; path = "Library/LazyImage+Resizing.swift"; sourceTree = "<group>"; };
-		9F986218315F6EB28051F42551945376 /* Pods-CodeChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeChallengeTests-dummy.m"; sourceTree = "<group>"; };
-		A2CF5349C64791F91D4FC3A4B3CEC86A /* Pods-CodeChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9995148E15B916E3BCD386604F6978E8 /* LazyImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyImage-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EE2A3C43ED5089D9409F28B15E3CAAD /* Pods-CodeChallengeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeChallengeUITests-dummy.m"; sourceTree = "<group>"; };
 		A4F092F499A5B3815172BB4505A8C667 /* LazyImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LazyImage.framework; path = LazyImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC156DA305695EF241E32FE62227CF12 /* Pods-CodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		B175E6DF72E05975F264ECF90928C52E /* LazyImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LazyImage-Info.plist"; sourceTree = "<group>"; };
 		B25A001471803E9BB4BCA57CBE231406 /* Pods_CodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallenge.framework; path = "Pods-CodeChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92FCA2195F8A4941300820C55FC2D01 /* LazyImage+Loader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Loader.swift"; path = "Library/LazyImage+Loader.swift"; sourceTree = "<group>"; };
-		BA56C80132BFF708C5B48ED284ECF6FF /* LazyImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LazyImage.modulemap; sourceTree = "<group>"; };
-		CA4AC8E73B8019003F7DDB536246B945 /* Pods-CodeChallengeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeChallengeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BBECEFD6D91F9E598A6BCB03E9553493 /* LazyImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LazyImage.xcconfig; sourceTree = "<group>"; };
+		C2305226AE8A736EB3757C0EEDEE4CB4 /* Pods-CodeChallengeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC73222141DD33422BA8F40A812B3E6C /* Pods_CodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallengeTests.framework; path = "Pods-CodeChallengeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E02D489791A33E8F84D677D542453AD7 /* Pods-CodeChallenge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeChallenge-resources.sh"; sourceTree = "<group>"; };
-		E7FACBAB4383A7D71E3DC26C291456AD /* Pods-CodeChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodeChallenge-umbrella.h"; sourceTree = "<group>"; };
+		CCA7485EE5480E1B982953D30B4C7F83 /* Pods-CodeChallengeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallengeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DED8D4760BA7F957BE922A75F44CFFFB /* Pods-CodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		DEF2CA189DC0438145668284ABFA6500 /* Pods-CodeChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1388337B74A8003CD721ECC217C24BA /* Pods-CodeChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodeChallengeTests-umbrella.h"; sourceTree = "<group>"; };
+		E3651540792D56712E5E3CC62187DDD5 /* Pods-CodeChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodeChallenge-umbrella.h"; sourceTree = "<group>"; };
+		E3ECD8DF981A2C14B325CFE00C7A2B3B /* Pods-CodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		EE073D464FBF043B2AEC30E6C18FF396 /* Pods-CodeChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F07783B4169967D664AFFFEA4FFAC514 /* LazyImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyImageView.swift; path = Library/LazyImageView.swift; sourceTree = "<group>"; };
-		F5E03321A5E0C7E56A7748358F643C98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6821A81E3E33E6232927A818F306EF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7CFE5921A8387E908C304E5354CC67C /* LazyImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LazyImage.xcconfig; sourceTree = "<group>"; };
-		FE79C04AF498095F9882A139DFE6E29F /* Pods-CodeChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeChallenge-frameworks.sh"; sourceTree = "<group>"; };
+		F8B069DE09A157CCE65046ACD9127BB1 /* Pods-CodeChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +145,7 @@
 				93822E51B23652EFF0D5AD2D21598DF9 /* LazyImage+Resizing.swift */,
 				4AE224593191D65B158D1B8FC010A9F1 /* LazyImage+Storage.swift */,
 				F07783B4169967D664AFFFEA4FFAC514 /* LazyImageView.swift */,
-				6E4283A683886055AB7C8D4C1BDA287E /* Support Files */,
+				95843E3FB3042558ADB4EE68CBF0D100 /* Support Files */,
 			);
 			name = LazyImage;
 			path = LazyImage;
@@ -175,33 +170,74 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		35D27C5CE89929BD5278710417DC7779 /* Pods-CodeChallengeUITests */ = {
+		4A37F506CF59BBCBD1B0AB26DBB8A2C1 /* Pods-CodeChallengeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F5E03321A5E0C7E56A7748358F643C98 /* Info.plist */,
-				01FCC8DCBDA4C79925CED2108F5E7968 /* Pods-CodeChallengeUITests.modulemap */,
-				CA4AC8E73B8019003F7DDB536246B945 /* Pods-CodeChallengeUITests-acknowledgements.markdown */,
-				187F2256BAD48E2F44D4EAE963B535E8 /* Pods-CodeChallengeUITests-acknowledgements.plist */,
-				31F2FEA47B145A67AFF0DAED0722A952 /* Pods-CodeChallengeUITests-dummy.m */,
-				1163A8748BC7AF1087CE87D6D4DA09CC /* Pods-CodeChallengeUITests-frameworks.sh */,
-				6A95740CFBC0783B1E8025AFC4593095 /* Pods-CodeChallengeUITests-resources.sh */,
-				6E674519C951B7CA917CDB702B77B00E /* Pods-CodeChallengeUITests-umbrella.h */,
-				2D341AF9CD8E042D33FF24BC2B3E7F37 /* Pods-CodeChallengeUITests.debug.xcconfig */,
-				3B6C27A6B85CD1245A180A940BBDB48F /* Pods-CodeChallengeUITests.release.xcconfig */,
+				6B95915C3343CE6C8E21ACF5294E2726 /* Pods-CodeChallengeUITests.modulemap */,
+				546EF73264B83FF8305B15DCAB669F17 /* Pods-CodeChallengeUITests-acknowledgements.markdown */,
+				CCA7485EE5480E1B982953D30B4C7F83 /* Pods-CodeChallengeUITests-acknowledgements.plist */,
+				9EE2A3C43ED5089D9409F28B15E3CAAD /* Pods-CodeChallengeUITests-dummy.m */,
+				5AF3A1C5492777E2884CD7BE642298F7 /* Pods-CodeChallengeUITests-Info.plist */,
+				6CE7ACF290FE691D7E1406D46761F784 /* Pods-CodeChallengeUITests-umbrella.h */,
+				0ECE56C2DB820AE5916D453FD85B936A /* Pods-CodeChallengeUITests.debug.xcconfig */,
+				1124186F8970152B5B356FDAA3E8BE3F /* Pods-CodeChallengeUITests.release.xcconfig */,
 			);
 			name = "Pods-CodeChallengeUITests";
 			path = "Target Support Files/Pods-CodeChallengeUITests";
 			sourceTree = "<group>";
 		};
-		6E4283A683886055AB7C8D4C1BDA287E /* Support Files */ = {
+		5777065DB1EFAE4F342B768253863747 /* Pods-CodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				F6821A81E3E33E6232927A818F306EF4 /* Info.plist */,
-				BA56C80132BFF708C5B48ED284ECF6FF /* LazyImage.modulemap */,
-				F7CFE5921A8387E908C304E5354CC67C /* LazyImage.xcconfig */,
-				7E34B7EEDE8E1EF4BDC6BE95A3894F7A /* LazyImage-dummy.m */,
-				217DC7129F7C500AC899F63978936128 /* LazyImage-prefix.pch */,
-				10E6451781F7B50EC44D06CA08151BF9 /* LazyImage-umbrella.h */,
+				6B1A5F6236D8841A114324F97D469D2D /* Pods-CodeChallenge.modulemap */,
+				DEF2CA189DC0438145668284ABFA6500 /* Pods-CodeChallenge-acknowledgements.markdown */,
+				012D372268233350A6558BD1B97B3F0A /* Pods-CodeChallenge-acknowledgements.plist */,
+				6983B77BBDFCE36C8170CBD92CA593B1 /* Pods-CodeChallenge-dummy.m */,
+				2BCB96C5C0834F3D26F0B1B3EA346DF8 /* Pods-CodeChallenge-frameworks.sh */,
+				90CDD93945DCE46ECD7FBAD23FD51DE6 /* Pods-CodeChallenge-Info.plist */,
+				E3651540792D56712E5E3CC62187DDD5 /* Pods-CodeChallenge-umbrella.h */,
+				E3ECD8DF981A2C14B325CFE00C7A2B3B /* Pods-CodeChallenge.debug.xcconfig */,
+				DED8D4760BA7F957BE922A75F44CFFFB /* Pods-CodeChallenge.release.xcconfig */,
+			);
+			name = "Pods-CodeChallenge";
+			path = "Target Support Files/Pods-CodeChallenge";
+			sourceTree = "<group>";
+		};
+		7BD4CB0D52D61D2F820906D54BE9D22C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5777065DB1EFAE4F342B768253863747 /* Pods-CodeChallenge */,
+				84F596E53936DECF0E495EC87CB85B12 /* Pods-CodeChallengeTests */,
+				4A37F506CF59BBCBD1B0AB26DBB8A2C1 /* Pods-CodeChallengeUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		84F596E53936DECF0E495EC87CB85B12 /* Pods-CodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				13F7F51D573EDF02D99A9438ECAA8B9C /* Pods-CodeChallengeTests.modulemap */,
+				EE073D464FBF043B2AEC30E6C18FF396 /* Pods-CodeChallengeTests-acknowledgements.markdown */,
+				F8B069DE09A157CCE65046ACD9127BB1 /* Pods-CodeChallengeTests-acknowledgements.plist */,
+				23B49BBE634F8701E7EE703D453E3917 /* Pods-CodeChallengeTests-dummy.m */,
+				C2305226AE8A736EB3757C0EEDEE4CB4 /* Pods-CodeChallengeTests-Info.plist */,
+				E1388337B74A8003CD721ECC217C24BA /* Pods-CodeChallengeTests-umbrella.h */,
+				283A99EED8D39F1BC35459831992A1B8 /* Pods-CodeChallengeTests.debug.xcconfig */,
+				119C98FBC5112A156E8A21505F8C8391 /* Pods-CodeChallengeTests.release.xcconfig */,
+			);
+			name = "Pods-CodeChallengeTests";
+			path = "Target Support Files/Pods-CodeChallengeTests";
+			sourceTree = "<group>";
+		};
+		95843E3FB3042558ADB4EE68CBF0D100 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6189E2352438C18F26EE6607FC86B4A2 /* LazyImage.modulemap */,
+				BBECEFD6D91F9E598A6BCB03E9553493 /* LazyImage.xcconfig */,
+				8B430DA09DABB864EEC1E99C532C6D12 /* LazyImage-dummy.m */,
+				B175E6DF72E05975F264ECF90928C52E /* LazyImage-Info.plist */,
+				9995148E15B916E3BCD386604F6978E8 /* LazyImage-prefix.pch */,
+				8DC4D0335C254DBDB11D3A785A39530B /* LazyImage-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LazyImage";
@@ -215,42 +251,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B91B3B68AAC31A2339EEA397B29953CF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DEC9F93EF2ADA87994A9AD5FDF030801 /* Pods-CodeChallenge */,
-				CB4329DD1C362597E7B7F560AC4A9B5F /* Pods-CodeChallengeTests */,
-				35D27C5CE89929BD5278710417DC7779 /* Pods-CodeChallengeUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CB4329DD1C362597E7B7F560AC4A9B5F /* Pods-CodeChallengeTests */ = {
-			isa = PBXGroup;
-			children = (
-				109077B80351DB7AB26BBB6EE66A755A /* Info.plist */,
-				1E393E8C33E32803100AFD88452F14A0 /* Pods-CodeChallengeTests.modulemap */,
-				2EB4A1533A725E011AF39AFE987F8C13 /* Pods-CodeChallengeTests-acknowledgements.markdown */,
-				2D1D074C3EA03E29D0EA91EE27AEE979 /* Pods-CodeChallengeTests-acknowledgements.plist */,
-				9F986218315F6EB28051F42551945376 /* Pods-CodeChallengeTests-dummy.m */,
-				2CB8E889C54C1F6639971B8A9A587CB2 /* Pods-CodeChallengeTests-frameworks.sh */,
-				5174F26A5979E5417F4E4CD963785986 /* Pods-CodeChallengeTests-resources.sh */,
-				42F6CE6EB91F755D4AE739961708FC94 /* Pods-CodeChallengeTests-umbrella.h */,
-				0E45BD8C6C84B97EBC2874D412075B0F /* Pods-CodeChallengeTests.debug.xcconfig */,
-				6AB8F7586BE32DB286064D4860513D27 /* Pods-CodeChallengeTests.release.xcconfig */,
-			);
-			name = "Pods-CodeChallengeTests";
-			path = "Target Support Files/Pods-CodeChallengeTests";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2EAC4D42342B64C4C758DE1C28B5B54B /* Pods */,
 				124DA76A5EEE7BE3319B14CD02E2682D /* Products */,
-				B91B3B68AAC31A2339EEA397B29953CF /* Targets Support Files */,
+				7BD4CB0D52D61D2F820906D54BE9D22C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,24 +268,6 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DEC9F93EF2ADA87994A9AD5FDF030801 /* Pods-CodeChallenge */ = {
-			isa = PBXGroup;
-			children = (
-				56D024D33125501FED9D24452072CCE0 /* Info.plist */,
-				66C5FA6061DDD340220EA83ABF3948A2 /* Pods-CodeChallenge.modulemap */,
-				A2CF5349C64791F91D4FC3A4B3CEC86A /* Pods-CodeChallenge-acknowledgements.markdown */,
-				144FF38314EE98C0A9E9017EB3243B8D /* Pods-CodeChallenge-acknowledgements.plist */,
-				863012158BA3491F0B9560973D38EBD6 /* Pods-CodeChallenge-dummy.m */,
-				FE79C04AF498095F9882A139DFE6E29F /* Pods-CodeChallenge-frameworks.sh */,
-				E02D489791A33E8F84D677D542453AD7 /* Pods-CodeChallenge-resources.sh */,
-				E7FACBAB4383A7D71E3DC26C291456AD /* Pods-CodeChallenge-umbrella.h */,
-				AC156DA305695EF241E32FE62227CF12 /* Pods-CodeChallenge.debug.xcconfig */,
-				22B74C2593C7C8D9EAA4FE601A593F25 /* Pods-CodeChallenge.release.xcconfig */,
-			);
-			name = "Pods-CodeChallenge";
-			path = "Target Support Files/Pods-CodeChallenge";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -517,7 +507,157 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		068A219F9C384FD572D523EEE317D0C6 /* Release */ = {
+		4F221B5486E9F34BDB7B570B83A141B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBECEFD6D91F9E598A6BCB03E9553493 /* LazyImage.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LazyImage/LazyImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LazyImage/LazyImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LazyImage/LazyImage.modulemap";
+				PRODUCT_MODULE_NAME = LazyImage;
+				PRODUCT_NAME = LazyImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5964D32986DD7FD69E035F86B4F1027A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1124186F8970152B5B356FDAA3E8BE3F /* Pods-CodeChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallengeUITests/Pods-CodeChallengeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallengeUITests/Pods-CodeChallengeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6ADACB4FF9F4B53D81F80D433D2472D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBECEFD6D91F9E598A6BCB03E9553493 /* LazyImage.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LazyImage/LazyImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LazyImage/LazyImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LazyImage/LazyImage.modulemap";
+				PRODUCT_MODULE_NAME = LazyImage;
+				PRODUCT_NAME = LazyImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A2486F87ABC8E905F486BDB49B1370F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283A99EED8D39F1BC35459831992A1B8 /* Pods-CodeChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallengeTests/Pods-CodeChallengeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallengeTests/Pods-CodeChallengeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -549,8 +689,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -579,9 +717,9 @@
 			};
 			name = Release;
 		};
-		41782F863D8BF96BC34FA518A71938A5 /* Debug */ = {
+		B2CE768769367A40E40D8DCB17D5A496 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC156DA305695EF241E32FE62227CF12 /* Pods-CodeChallenge.debug.xcconfig */;
+			baseConfigurationReference = 119C98FBC5112A156E8A21505F8C8391 /* Pods-CodeChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -594,84 +732,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallenge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		43BD9FF96843C474E7A441E2A4F8322E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B6C27A6B85CD1245A180A940BBDB48F /* Pods-CodeChallengeUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallengeUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallengeUITests/Pods-CodeChallengeUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5AF41019B3C10C6928743FBA064A90C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AB8F7586BE32DB286064D4860513D27 /* Pods-CodeChallengeTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallengeTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallengeTests/Pods-CodeChallengeTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -695,45 +756,9 @@
 			};
 			name = Release;
 		};
-		6040CB98A0745196E78D1C130A0B538C /* Debug */ = {
+		C0AB7D0663145001187F1EC806D66E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CFE5921A8387E908C304E5354CC67C /* LazyImage.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LazyImage/LazyImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LazyImage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LazyImage/LazyImage.modulemap";
-				PRODUCT_MODULE_NAME = LazyImage;
-				PRODUCT_NAME = LazyImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		94943C11CCBFFF0EAB7C0A5B0507C9B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E45BD8C6C84B97EBC2874D412075B0F /* Pods-CodeChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = 0ECE56C2DB820AE5916D453FD85B936A /* Pods-CodeChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -746,45 +771,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallengeTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallengeTests/Pods-CodeChallengeTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E12B0AA5397C053017A072480AB74B7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D341AF9CD8E042D33FF24BC2B3E7F37 /* Pods-CodeChallengeUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallengeUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallengeUITests/Pods-CodeChallengeUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -807,7 +794,7 @@
 			};
 			name = Debug;
 		};
-		E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */ = {
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -839,8 +826,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -873,46 +858,9 @@
 			};
 			name = Debug;
 		};
-		E9BA4D925D71B3CB571C284F1156BE1A /* Release */ = {
+		E6DF148154A2F70EE72F370747F0AEA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CFE5921A8387E908C304E5354CC67C /* LazyImage.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LazyImage/LazyImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LazyImage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LazyImage/LazyImage.modulemap";
-				PRODUCT_MODULE_NAME = LazyImage;
-				PRODUCT_NAME = LazyImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F3046F7F2A96F78906273F9AFB671607 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22B74C2593C7C8D9EAA4FE601A593F25 /* Pods-CodeChallenge.release.xcconfig */;
+			baseConfigurationReference = E3ECD8DF981A2C14B325CFE00C7A2B3B /* Pods-CodeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -925,7 +873,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallenge/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA17283D8EBBF057999BA39A770E94CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED8D4760BA7F957BE922A75F44CFFFB /* Pods-CodeChallenge.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -955,8 +941,8 @@
 		39E9013B7A7024049A0AC490ECCDD6D7 /* Build configuration list for PBXNativeTarget "LazyImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6040CB98A0745196E78D1C130A0B538C /* Debug */,
-				E9BA4D925D71B3CB571C284F1156BE1A /* Release */,
+				4F221B5486E9F34BDB7B570B83A141B9 /* Debug */,
+				6ADACB4FF9F4B53D81F80D433D2472D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -964,8 +950,8 @@
 		435B14730D3EF47E787D4014834B1F12 /* Build configuration list for PBXNativeTarget "Pods-CodeChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41782F863D8BF96BC34FA518A71938A5 /* Debug */,
-				F3046F7F2A96F78906273F9AFB671607 /* Release */,
+				E6DF148154A2F70EE72F370747F0AEA6 /* Debug */,
+				EA17283D8EBBF057999BA39A770E94CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -973,8 +959,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */,
-				068A219F9C384FD572D523EEE317D0C6 /* Release */,
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -982,8 +968,8 @@
 		70B0297906AA718DCABDE20DA537F2E3 /* Build configuration list for PBXNativeTarget "Pods-CodeChallengeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E12B0AA5397C053017A072480AB74B7C /* Debug */,
-				43BD9FF96843C474E7A441E2A4F8322E /* Release */,
+				C0AB7D0663145001187F1EC806D66E71 /* Debug */,
+				5964D32986DD7FD69E035F86B4F1027A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -991,8 +977,8 @@
 		9F1C89A75F61260604E76DF2ECE38268 /* Build configuration list for PBXNativeTarget "Pods-CodeChallengeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94943C11CCBFFF0EAB7C0A5B0507C9B1 /* Debug */,
-				5AF41019B3C10C6928743FBA064A90C4 /* Release */,
+				7A2486F87ABC8E905F486BDB49B1370F /* Debug */,
+				B2CE768769367A40E40D8DCB17D5A496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

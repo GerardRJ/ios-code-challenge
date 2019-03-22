@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2387B9982243E24D0095AC83 /* LoginModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2387B9962243E24D0095AC83 /* LoginModel.xcdatamodeld */; };
+		2387B9AC2243EEAD0095AC83 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2387B9A82243EEAD0095AC83 /* User+CoreDataProperties.m */; };
+		2387B9AD2243EEAD0095AC83 /* User+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2387B9AB2243EEAD0095AC83 /* User+CoreDataClass.m */; };
 		451839C2377C14D1C990F421 /* Pods_CodeChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9E28464864E5F2B355AAA4 /* Pods_CodeChallengeTests.framework */; };
 		46B4505D21F926FE00ADCDFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B4505C21F926FE00ADCDFF /* AppDelegate.m */; };
 		46B4506021F926FE00ADCDFF /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B4505F21F926FE00ADCDFF /* TitleViewController.m */; };
@@ -50,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2387B9972243E24D0095AC83 /* LoginModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginModel.xcdatamodel; sourceTree = "<group>"; };
+		2387B9A82243EEAD0095AC83 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2387B9A92243EEAD0095AC83 /* User+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataClass.h"; sourceTree = "<group>"; };
+		2387B9AA2243EEAD0095AC83 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2387B9AB2243EEAD0095AC83 /* User+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataClass.m"; sourceTree = "<group>"; };
 		2D25C57A8C00617F2B42E121 /* Pods_CodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B4505821F926FE00ADCDFF /* CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B4505B21F926FE00ADCDFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +133,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2387B9992243E2840095AC83 /* Login - Data */ = {
+			isa = PBXGroup;
+			children = (
+				2387B9962243E24D0095AC83 /* LoginModel.xcdatamodeld */,
+				2387B9AA2243EEAD0095AC83 /* User+CoreDataProperties.h */,
+				2387B9A92243EEAD0095AC83 /* User+CoreDataClass.h */,
+				2387B9AB2243EEAD0095AC83 /* User+CoreDataClass.m */,
+				2387B9A82243EEAD0095AC83 /* User+CoreDataProperties.m */,
+			);
+			path = "Login - Data";
+			sourceTree = "<group>";
+		};
 		3DF58FC6C373A3E36B169D86 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +190,7 @@
 				D5E4F436220331D0003098CB /* Detail Exhibitor Screen */,
 				D5E4F41D2200D288003098CB /* Exhibitor - Data */,
 				46B4506121F926FE00ADCDFF /* Main.storyboard */,
+				2387B9992243E2840095AC83 /* Login - Data */,
 				46B4506421F926FE00ADCDFF /* Assets.xcassets */,
 				46B4506621F926FE00ADCDFF /* LaunchScreen.storyboard */,
 				46B4506921F926FE00ADCDFF /* Info.plist */,
@@ -442,7 +463,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LazyImage/LazyImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -453,7 +474,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4D0AD779E5B3F8B3CE241566 /* [CP] Check Pods Manifest.lock */ = {
@@ -485,6 +506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2387B9AC2243EEAD0095AC83 /* User+CoreDataProperties.m in Sources */,
 				D5E4F4D32203931A003098CB /* ExhibitorImageCollectionViewCell.swift in Sources */,
 				D5E4F43B22033830003098CB /* ExhibitorScrollViewController.m in Sources */,
 				D5E4F446220355F3003098CB /* ExhibitorLabelCollectionViewCell.m in Sources */,
@@ -493,10 +515,12 @@
 				46B4506B21F926FE00ADCDFF /* main.m in Sources */,
 				D5E4F40E2200C114003098CB /* ExhibitorsModel.xcdatamodeld in Sources */,
 				D5E4F44B22035CB9003098CB /* ExhibitorDescriptionCollectionViewCell.m in Sources */,
+				2387B9AD2243EEAD0095AC83 /* User+CoreDataClass.m in Sources */,
 				D5E4F42C2201237A003098CB /* ExhibitorSummaryCell.m in Sources */,
 				D5E4F4232200D2C4003098CB /* Exhibitor+CoreDataProperties.m in Sources */,
 				D5E4F42522010272003098CB /* ExhibitorsTableViewController.m in Sources */,
 				46B4505D21F926FE00ADCDFF /* AppDelegate.m in Sources */,
+				2387B9982243E24D0095AC83 /* LoginModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +683,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -826,6 +851,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		2387B9962243E24D0095AC83 /* LoginModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2387B9972243E24D0095AC83 /* LoginModel.xcdatamodel */,
+			);
+			currentVersion = 2387B9972243E24D0095AC83 /* LoginModel.xcdatamodel */;
+			path = LoginModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		D5E4F40C2200C114003098CB /* ExhibitorsModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

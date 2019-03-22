@@ -21,6 +21,5 @@ class ExhibitorImageCollectionViewCell : UICollectionViewCell
     public func downloadImageFromURL(urlString: String) -> Void
     {
         imageView.imageURL = urlString
-        imageView.forceDownload = true
     }
 }
