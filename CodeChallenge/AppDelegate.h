@@ -12,5 +12,7 @@
 
 @property (strong, nonatomic, readonly) NSPersistentContainer *persistentContainer;
 
+- (void)recreatePersistentStores;
+
 @end
 

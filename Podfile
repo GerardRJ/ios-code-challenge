@@ -7,6 +7,7 @@ target 'CodeChallenge' do
 
   # Pods for CodeChallenge
   pod 'LazyImage'
+  pod 'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core-data.git'
 
   target 'CodeChallengeTests' do
     inherit! :search_paths

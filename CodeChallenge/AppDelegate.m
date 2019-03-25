@@ -9,6 +9,13 @@
 #import <os/log.h>
 
 #import "User+CoreDataClass.h"
+#import "EncryptedStore.h"
+
+static NSString *kOptionPassphraseKey = @"123deOliveira4";
+static NSString *kLoginModel = @"LoginModel";
+static NSString *kLoginDbFile = @"LoginModel.sqlite";
+static NSString *kExhibitorsModel = @"ExhibitorsModel";
+static NSString *kExhibitorsDbFile = @"ExhibitorsModel.sqlite";
 
 @interface AppDelegate ()
 
@@ -19,35 +26,66 @@
 @implementation AppDelegate
 
 /**
+ * This method deletes the persistent store and then creates a new one.
+ *
+ * @note https://stackoverflow.com/questions/1077810/delete-reset-all-entries-in-core-data
+ */
+- (void)recreatePersistentStores
+{
+//    NSArray *stores = [[self.persistentContainer persistentStoreCoordinator] persistentStores];
+//    os_log_debug(OS_LOG_DEFAULT, "Stores: %{public}@", stores);
+//
+//    for(NSPersistentStore *store in stores) {
+//        [[self.persistentContainer persistentStoreCoordinator] removePersistentStore:store error:nil];
+//        [[NSFileManager defaultManager] removeItemAtPath:store.URL.path error:nil];
+//    }
+//
+//    [self createPersistentStore];
+}
+
+
+/**
  * Create a single model sqlite store.
  *
+ * @param aPersistentContainer An existing container or nil if a new one should be created.
  * @param modelName Name of the object model file.
  * @param storeName Name of the sqlite store.
  * @return Container for store.
  */
-+ (NSPersistentContainer *)createPersistentStoreWithModel:(NSString *)modelName inFile:(NSString *)storeName {
++ (NSPersistentContainer *)updatePersistentContainer:(NSPersistentContainer *)aPersistentContainer withModel:(NSString *)modelName inFile:(NSString *)storeName {
     
-    // Get model
-    NSManagedObjectModel *model = nil;
-    {
-        NSURL *modelURL = [[NSBundle mainBundle] URLForResource:modelName withExtension:@"momd"];
-        NSLog(@"Model URL: %@", modelURL);
-        model = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
+    NSPersistentContainer *persistentContainer = aPersistentContainer;
+    if (persistentContainer == nil) {
+        
+        // Get model
+        NSManagedObjectModel *model = nil;
+        {
+            NSURL *modelURL = [[NSBundle mainBundle] URLForResource:modelName withExtension:@"momd"];
+            NSLog(@"Model URL: %@", modelURL);
+            model = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
+        }
+        
+        persistentContainer = [[NSPersistentContainer alloc] initWithName:@"Bob" managedObjectModel:model];
     }
-    
-    // Load model.
-    NSPersistentContainer *persistentContainer = [[NSPersistentContainer alloc] initWithName:@"Bob" managedObjectModel:model];
     
     // Get sqlite url.
     // NSApplicationSupportDirectory might have to change in shipping app.
     NSArray *storeDescriptions = nil;
     {
-        NSURL *storeURL = [[NSFileManager defaultManager] URLForDirectory:NSApplicationSupportDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:nil];
-        storeURL = [storeURL URLByAppendingPathComponent:storeName];
-        NSLog(@"Calc url: %@", storeURL);
-        NSPersistentStoreDescription *storeDescription = [NSPersistentStoreDescription persistentStoreDescriptionWithURL:storeURL];
+        NSPersistentStoreDescription *encryptionStoreDescription = nil;
+        {
+            NSURL *storeURL = [[NSFileManager defaultManager] URLForDirectory:NSApplicationSupportDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:nil];
+            storeURL = [storeURL URLByAppendingPathComponent:storeName];
+            
+            NSDictionary *cOpts = @{
+                                    [EncryptedStore optionPassphraseKey] : kOptionPassphraseKey, //your Key
+                                    [EncryptedStore optionFileManager] : [EncryptedStoreFileManager defaultManager],
+                                    EncryptedStoreDatabaseLocation: storeURL
+                                    };
+            encryptionStoreDescription = [EncryptedStore makeDescriptionWithOptions:cOpts configuration:@"Default" error:nil];
+        }
         
-        storeDescriptions = @[storeDescription];
+        storeDescriptions = @[encryptionStoreDescription];
     }
     
     // Set sqllite urls.
@@ -68,54 +106,71 @@
 }
 
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
     // Seed the LoginModel database.  If this isn't done everything ends up in the other database.
     // Hint from: https://stackoverflow.com/questions/8439866/one-application-with-two-databases
     {
-        NSPersistentContainer *persistentContainer = [AppDelegate createPersistentStoreWithModel:@"LoginModel" inFile:@"LoginModel.sqlite"];
+        NSPersistentContainer *persistentContainer = [AppDelegate updatePersistentContainer: nil withModel:kLoginModel inFile:kLoginDbFile];
         [self saveUserInformation:persistentContainer];
         persistentContainer = nil;
         
-        [AppDelegate createPersistentStoreWithModel:@"ExhibitorsModel" inFile:@"ExhibitorsModel.sqlite"];
+        [AppDelegate updatePersistentContainer: nil withModel:kExhibitorsModel inFile:kExhibitorsDbFile];
     }
     
     // Get model
     NSManagedObjectModel *model = nil;
     {
-        NSURL *exhibitorModelURL = [[NSBundle mainBundle] URLForResource:@"ExhibitorsModel" withExtension:@"momd"];
+        NSURL *exhibitorModelURL = [[NSBundle mainBundle] URLForResource:kExhibitorsModel withExtension:@"momd"];
         NSManagedObjectModel *exhibitorModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:exhibitorModelURL];
-        
-        NSURL *loginModelURL = [[NSBundle mainBundle] URLForResource:@"LoginModel" withExtension:@"momd"];
+
+        NSURL *loginModelURL = [[NSBundle mainBundle] URLForResource:kLoginModel withExtension:@"momd"];
         NSManagedObjectModel *loginModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:loginModelURL];
-        
+
         model = [NSManagedObjectModel modelByMergingModels:@[exhibitorModel, loginModel]];
     }
 
     // Load model.
     self.persistentContainer = [[NSPersistentContainer alloc] initWithName:@"Bob" managedObjectModel:model];
-    
+
     // Get sqlite url.
     // NSApplicationSupportDirectory might have to change in shipping app.
     NSArray *storeDescriptions = nil;
     {
-        NSURL *exhibitorStoreURL = [[NSFileManager defaultManager] URLForDirectory:NSApplicationSupportDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:nil];
-        exhibitorStoreURL = [exhibitorStoreURL URLByAppendingPathComponent:@"ExhibitorsModel.sqlite"];
-        NSLog(@"Calc url: %@", exhibitorStoreURL);
-        NSPersistentStoreDescription *exhibitorStoreDescription = [NSPersistentStoreDescription persistentStoreDescriptionWithURL:exhibitorStoreURL];
-
-        NSURL *loginStoreURL = [[NSFileManager defaultManager] URLForDirectory:NSApplicationSupportDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:nil];
-        loginStoreURL = [loginStoreURL URLByAppendingPathComponent:@"LoginModel.sqlite"];
-        NSLog(@"Calc url: %@", loginStoreURL);
-        NSPersistentStoreDescription *loginStoreDescription = [NSPersistentStoreDescription persistentStoreDescriptionWithURL:loginStoreURL];
+        NSPersistentStoreDescription *exhibitorStoreDescription = nil;
+        {
+            NSURL *storeURL = [[NSFileManager defaultManager] URLForDirectory:NSApplicationSupportDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:nil];
+            storeURL = [storeURL URLByAppendingPathComponent:kExhibitorsDbFile];
+            
+            NSDictionary *cOpts = @{
+                                    [EncryptedStore optionPassphraseKey] : kOptionPassphraseKey, //your Key
+                                    [EncryptedStore optionFileManager] : [EncryptedStoreFileManager defaultManager],
+                                    EncryptedStoreDatabaseLocation: storeURL
+                                    };
+            exhibitorStoreDescription = [EncryptedStore makeDescriptionWithOptions:cOpts configuration:@"Default" error:nil];
+        }
         
+        NSPersistentStoreDescription *loginStoreDescription = nil;
+        {
+            NSURL *storeURL = [[NSFileManager defaultManager] URLForDirectory:NSApplicationSupportDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:nil];
+            storeURL = [storeURL URLByAppendingPathComponent:kLoginDbFile];
+            
+            NSDictionary *cOpts = @{
+                                    [EncryptedStore optionPassphraseKey] : kOptionPassphraseKey, //your Key
+                                    [EncryptedStore optionFileManager] : [EncryptedStoreFileManager defaultManager],
+                                    EncryptedStoreDatabaseLocation: storeURL
+                                    };
+            loginStoreDescription = [EncryptedStore makeDescriptionWithOptions:cOpts configuration:@"Default" error:nil];
+        }
+
         storeDescriptions = @[exhibitorStoreDescription, loginStoreDescription];
     }
-    
+
     // Set sqllite urls.
     [self.persistentContainer setPersistentStoreDescriptions:storeDescriptions];
-    
+
     // Load stores.
     [self.persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *description, NSError *error) {
         if (error != nil) {
@@ -123,13 +178,13 @@
             abort();
         }
     }];
-    
+
     NSURL *exhibitorStoreURL = [[[[self.persistentContainer persistentStoreCoordinator] persistentStores] firstObject] URL];
     NSLog(@"Real url: %@", exhibitorStoreURL);
-    
+
     NSURL *loginStoreURL = [[[[self.persistentContainer persistentStoreCoordinator] persistentStores] lastObject] URL];
     NSLog(@"Real url: %@", loginStoreURL);
-    
+
     [self printUserInformation];
     
     return YES;

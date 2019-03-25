@@ -7,107 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01EF17FA0C39134E228855E96F313931 /* LazyImage+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD01FD04C0173E8CC86C3619AA8B640 /* LazyImage+Network.swift */; };
-		0BD39030FA67FBC1DDA56B70FE8DF93D /* LazyImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC4D0335C254DBDB11D3A785A39530B /* LazyImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21DADC08FBB846EA091D4012107E93C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		24F79B2E69D2179FFFE67ED1393BA99F /* Pods-CodeChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6983B77BBDFCE36C8170CBD92CA593B1 /* Pods-CodeChallenge-dummy.m */; };
-		264ADC4A2C712FE227F889C54D42232B /* LazyImage+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A3E90EE36AB485D5905E6819B1709B /* LazyImage+Error.swift */; };
-		2BD1EA9A5CF7F726CADCE09DBA3EC1DC /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07783B4169967D664AFFFEA4FFAC514 /* LazyImageView.swift */; };
-		3AE7B13A2713A12C37A2024DA8243F62 /* LazyImage+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92FCA2195F8A4941300820C55FC2D01 /* LazyImage+Loader.swift */; };
-		3F97089662DFABB0A1F10395F1C98FB9 /* LazyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E536B290B112E9E4770EE85729463 /* LazyImage.swift */; };
-		430B054592CF8A278C5D072C92890114 /* LazyImage+Resizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93822E51B23652EFF0D5AD2D21598DF9 /* LazyImage+Resizing.swift */; };
+		01EF17FA0C39134E228855E96F313931 /* LazyImage+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2BB9C0A4897E64DA6D1F42DB8ABBA /* LazyImage+Network.swift */; };
+		0864D56870C4B0375AD6F4C00F23E6A1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE26B5BACA4817C922168B48FA60219 /* Security.framework */; };
+		0BD39030FA67FBC1DDA56B70FE8DF93D /* LazyImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9ECE517EEF0149B30F6172DB2E6C79 /* LazyImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21DADC08FBB846EA091D4012107E93C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277C7B64C59D6F73BFE830A36FEB10D9 /* Foundation.framework */; };
+		264ADC4A2C712FE227F889C54D42232B /* LazyImage+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = A898D6230A53F820FAE62ED401F47F8F /* LazyImage+Error.swift */; };
+		27FC6656142AFAD9D2CE415B1BFDDDE2 /* SQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72118DCF9DDA04D6C45A8B4CEF3501F3 /* SQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD1EA9A5CF7F726CADCE09DBA3EC1DC /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16485AC90BF71067D3B60C2812B8643 /* LazyImageView.swift */; };
+		2F207111A79D5F6917FA7F5636A50A88 /* Pods-CodeChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3651540792D56712E5E3CC62187DDD5 /* Pods-CodeChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		309E50DFDD4E100084ECC503900FE977 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCB2D48CE18431A543C422EFC772EA /* CoreData.framework */; };
+		3AE7B13A2713A12C37A2024DA8243F62 /* LazyImage+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38129B3A6904BBC6D7033EC8B9DD2A8C /* LazyImage+Loader.swift */; };
+		3F97089662DFABB0A1F10395F1C98FB9 /* LazyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50DAFC87157B1F14B6C8C036E25529F /* LazyImage.swift */; };
+		430B054592CF8A278C5D072C92890114 /* LazyImage+Resizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95637D1ECDE3FE9A1F4891DCF8F427F9 /* LazyImage+Resizing.swift */; };
 		473BFD7A86AE1E2980D46DE10F8D2AF9 /* Pods-CodeChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1388337B74A8003CD721ECC217C24BA /* Pods-CodeChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		494D09F1B10DD344579BEAED8C0DC5D7 /* Pods-CodeChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B49BBE634F8701E7EE703D453E3917 /* Pods-CodeChallengeTests-dummy.m */; };
-		73FB297C16179A378BEEEA87C6944DB4 /* Pods-CodeChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3651540792D56712E5E3CC62187DDD5 /* Pods-CodeChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE067A2828087C25DF46B1E3518F650 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C1394B1024EA8216EA51B166C14B99 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EFF12968CE8D291870F95E2EBC63B7F /* Pods-CodeChallengeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE7ACF290FE691D7E1406D46761F784 /* Pods-CodeChallengeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A253E4D4D9F47B24E891B24E0AA40801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		B9400DD0952D2206B528E8375089BD56 /* LazyImage+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE224593191D65B158D1B8FC010A9F1 /* LazyImage+Storage.swift */; };
-		CCB496346028F60644CE599F3BEE01A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CE6F3D2479AA77E7E28B8779763C560C /* LazyImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B430DA09DABB864EEC1E99C532C6D12 /* LazyImage-dummy.m */; };
-		DC8995A0C67AB271901B76A9D159EACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		801C95D084D10457112458480B7623B4 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = F6448D8750F9A04A2575364853F0E00F /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -DHAVE_USLEEP=1 -DSQLITE_MAX_VARIABLE_NUMBER=99999 -fno-objc-arc"; }; };
+		88CA66644BAB3DC868F057EEE067B620 /* EncryptedCoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3071CF2F89599B72BC6455D1D47675 /* EncryptedCoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97CB0C6FE271B4AB878459803A57BD8B /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A823C68B094A53D9EE4980D0CA4C35 /* SQLCipher.framework */; };
+		A5E6D4674ED83EDBC7C4E4FA87DAC915 /* Pods-CodeChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6983B77BBDFCE36C8170CBD92CA593B1 /* Pods-CodeChallenge-dummy.m */; };
+		B9400DD0952D2206B528E8375089BD56 /* LazyImage+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB44EB1978E9012028A7BFDF8115BD7 /* LazyImage+Storage.swift */; };
+		BE55E968A71AFCD0D2115CA2E4416149 /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BBA8B082DABBCCDDD919938521FA37 /* SQLCipher-dummy.m */; };
+		C6C8CF99AC6013AA3F267B8388D98CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277C7B64C59D6F73BFE830A36FEB10D9 /* Foundation.framework */; };
+		C9FF7C69FCDDF32E8CFE9EEBB942C4BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277C7B64C59D6F73BFE830A36FEB10D9 /* Foundation.framework */; };
+		CCB496346028F60644CE599F3BEE01A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277C7B64C59D6F73BFE830A36FEB10D9 /* Foundation.framework */; };
+		CE6F3D2479AA77E7E28B8779763C560C /* LazyImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D25B0F50DED09A794C0BA0DAC3CE861A /* LazyImage-dummy.m */; };
+		D58044DDCC7351CC9576E6A75225397F /* EncryptedCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96902B75CF1DEF7E17453B3BE9CD8E8B /* EncryptedCoreData-dummy.m */; };
+		DA98F7C2AB0F011DA2C2C42CCD84050F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE26B5BACA4817C922168B48FA60219 /* Security.framework */; };
+		DC8995A0C67AB271901B76A9D159EACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277C7B64C59D6F73BFE830A36FEB10D9 /* Foundation.framework */; };
 		E21F5718A39BC186D2DD02B46D0F3020 /* Pods-CodeChallengeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2A3C43ED5089D9409F28B15E3CAAD /* Pods-CodeChallengeUITests-dummy.m */; };
+		E6EC7BC88530FFB93EC6787865F48F7A /* EncryptedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 934C04E0A13F660A46A3698B14DACB84 /* EncryptedStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6A4D5705DE7226CADF1A1EAE148703 /* EncryptedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CB807AF755372E93893BE461EE738021 /* EncryptedStore.m */; };
+		FCA78F45D40018F1D7BC692D5FDB887C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277C7B64C59D6F73BFE830A36FEB10D9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A5CD43EB0DAC7044CA07F00960351B60 /* PBXContainerItemProxy */ = {
+		20045B67B066BB89A7E4036F2AE978EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C9F2B3357EB7670835AFE4D1988994;
+			remoteInfo = SQLCipher;
+		};
+		6607DB19B7E5DC187FCA3189AFA0F6D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A40407559B56A48A7ED979FDF05B67A;
 			remoteInfo = LazyImage;
 		};
+		84F6346F8A6C3B74068A923AF2BE7E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C9F2B3357EB7670835AFE4D1988994;
+			remoteInfo = SQLCipher;
+		};
+		D0C30DCC8E2435A104BCE67CE5EE6D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA4F927D76779CAE2F7C3D3140DCF19F;
+			remoteInfo = EncryptedCoreData;
+		};
 		DE383A8A0F7A767FD94A5CD501A791B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F462DCF4B0A0327A7639664B326B649;
+			remoteGlobalIDString = 1BB57155B58B2AC53B03D0EB7B4119A4;
 			remoteInfo = "Pods-CodeChallenge";
 		};
 		F6B36FFE1F71DEE713672C69CA3F6BE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F462DCF4B0A0327A7639664B326B649;
+			remoteGlobalIDString = 1BB57155B58B2AC53B03D0EB7B4119A4;
 			remoteInfo = "Pods-CodeChallenge";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		012D372268233350A6558BD1B97B3F0A /* Pods-CodeChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
+		08A5AD621A83D0FF67B3E9891A4E114D /* SQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-prefix.pch"; sourceTree = "<group>"; };
+		09EBB563435508994254BFA39AC83363 /* SQLCipher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLCipher-Info.plist"; sourceTree = "<group>"; };
 		0ECE56C2DB820AE5916D453FD85B936A /* Pods-CodeChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1124186F8970152B5B356FDAA3E8BE3F /* Pods-CodeChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		119C98FBC5112A156E8A21505F8C8391 /* Pods-CodeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		128BCBF4D0F0A6F24095C5DF31A33A21 /* EncryptedCoreData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EncryptedCoreData.xcconfig; sourceTree = "<group>"; };
 		13F7F51D573EDF02D99A9438ECAA8B9C /* Pods-CodeChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodeChallengeTests.modulemap"; sourceTree = "<group>"; };
-		16A3E90EE36AB485D5905E6819B1709B /* LazyImage+Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Error.swift"; path = "Library/LazyImage+Error.swift"; sourceTree = "<group>"; };
-		1BD024F6CBEBB87BB7EF221CC9D72344 /* Pods_CodeChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallengeUITests.framework; path = "Pods-CodeChallengeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CCB2D48CE18431A543C422EFC772EA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		21098FFA01BB72A972F386E4C0106A6A /* EncryptedCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EncryptedCoreData.framework; path = EncryptedCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B49BBE634F8701E7EE703D453E3917 /* Pods-CodeChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeChallengeTests-dummy.m"; sourceTree = "<group>"; };
+		250EC5ADBEBD66DD73B324916263A8AE /* Pods_CodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallenge.framework; path = "Pods-CodeChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277C7B64C59D6F73BFE830A36FEB10D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		283A99EED8D39F1BC35459831992A1B8 /* Pods-CodeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2BCB96C5C0834F3D26F0B1B3EA346DF8 /* Pods-CodeChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeChallenge-frameworks.sh"; sourceTree = "<group>"; };
-		4AE224593191D65B158D1B8FC010A9F1 /* LazyImage+Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Storage.swift"; path = "Library/LazyImage+Storage.swift"; sourceTree = "<group>"; };
+		2D1AF141F9EDD2FAFD8B17ACBDF1FD0E /* SQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLCipher.xcconfig; sourceTree = "<group>"; };
+		2F9ECE517EEF0149B30F6172DB2E6C79 /* LazyImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyImage-umbrella.h"; sourceTree = "<group>"; };
+		308EC484E36A9B86E5E94F8AD73128FA /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLCipher.framework; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38129B3A6904BBC6D7033EC8B9DD2A8C /* LazyImage+Loader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Loader.swift"; path = "Library/LazyImage+Loader.swift"; sourceTree = "<group>"; };
+		383C59ACC8D16710CFCDE2F4850E13AA /* LazyImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyImage-prefix.pch"; sourceTree = "<group>"; };
+		3938EA0DAE36B37E8BBFE2181237B007 /* LazyImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LazyImage.modulemap; sourceTree = "<group>"; };
+		3FE26B5BACA4817C922168B48FA60219 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		41B728BCAC3413431312FCB9A27755E5 /* EncryptedCoreData-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EncryptedCoreData-Info.plist"; sourceTree = "<group>"; };
+		4FF33981352EFBA19F0105166A48D103 /* EncryptedCoreData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EncryptedCoreData-prefix.pch"; sourceTree = "<group>"; };
 		546EF73264B83FF8305B15DCAB669F17 /* Pods-CodeChallengeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeChallengeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5AF3A1C5492777E2884CD7BE642298F7 /* Pods-CodeChallengeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallengeUITests-Info.plist"; sourceTree = "<group>"; };
-		6189E2352438C18F26EE6607FC86B4A2 /* LazyImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LazyImage.modulemap; sourceTree = "<group>"; };
-		697E536B290B112E9E4770EE85729463 /* LazyImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyImage.swift; path = Library/LazyImage.swift; sourceTree = "<group>"; };
 		6983B77BBDFCE36C8170CBD92CA593B1 /* Pods-CodeChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeChallenge-dummy.m"; sourceTree = "<group>"; };
+		69A823C68B094A53D9EE4980D0CA4C35 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1A5F6236D8841A114324F97D469D2D /* Pods-CodeChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodeChallenge.modulemap"; sourceTree = "<group>"; };
 		6B95915C3343CE6C8E21ACF5294E2726 /* Pods-CodeChallengeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodeChallengeUITests.modulemap"; sourceTree = "<group>"; };
 		6CE7ACF290FE691D7E1406D46761F784 /* Pods-CodeChallengeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodeChallengeUITests-umbrella.h"; sourceTree = "<group>"; };
-		8AD01FD04C0173E8CC86C3619AA8B640 /* LazyImage+Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Network.swift"; path = "Library/LazyImage+Network.swift"; sourceTree = "<group>"; };
-		8B430DA09DABB864EEC1E99C532C6D12 /* LazyImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LazyImage-dummy.m"; sourceTree = "<group>"; };
-		8DC4D0335C254DBDB11D3A785A39530B /* LazyImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyImage-umbrella.h"; sourceTree = "<group>"; };
+		72118DCF9DDA04D6C45A8B4CEF3501F3 /* SQLCipher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-umbrella.h"; sourceTree = "<group>"; };
+		82E931B5C83A570B2FA1E5611783271E /* SQLCipher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLCipher.modulemap; sourceTree = "<group>"; };
 		90CDD93945DCE46ECD7FBAD23FD51DE6 /* Pods-CodeChallenge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallenge-Info.plist"; sourceTree = "<group>"; };
-		93822E51B23652EFF0D5AD2D21598DF9 /* LazyImage+Resizing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Resizing.swift"; path = "Library/LazyImage+Resizing.swift"; sourceTree = "<group>"; };
-		9995148E15B916E3BCD386604F6978E8 /* LazyImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyImage-prefix.pch"; sourceTree = "<group>"; };
+		934C04E0A13F660A46A3698B14DACB84 /* EncryptedStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EncryptedStore.h; path = "Incremental Store/EncryptedStore.h"; sourceTree = "<group>"; };
+		95637D1ECDE3FE9A1F4891DCF8F427F9 /* LazyImage+Resizing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Resizing.swift"; path = "Library/LazyImage+Resizing.swift"; sourceTree = "<group>"; };
+		96902B75CF1DEF7E17453B3BE9CD8E8B /* EncryptedCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EncryptedCoreData-dummy.m"; sourceTree = "<group>"; };
+		9B7CC03A4E4FD7E0F956D92BD21C95B2 /* Pods_CodeChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallengeUITests.framework; path = "Pods-CodeChallengeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECAAF2DE9FF4FEC5BB6C0100908CB5F /* EncryptedCoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EncryptedCoreData.modulemap; sourceTree = "<group>"; };
 		9EE2A3C43ED5089D9409F28B15E3CAAD /* Pods-CodeChallengeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeChallengeUITests-dummy.m"; sourceTree = "<group>"; };
-		A4F092F499A5B3815172BB4505A8C667 /* LazyImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LazyImage.framework; path = LazyImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B175E6DF72E05975F264ECF90928C52E /* LazyImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LazyImage-Info.plist"; sourceTree = "<group>"; };
-		B25A001471803E9BB4BCA57CBE231406 /* Pods_CodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallenge.framework; path = "Pods-CodeChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B92FCA2195F8A4941300820C55FC2D01 /* LazyImage+Loader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Loader.swift"; path = "Library/LazyImage+Loader.swift"; sourceTree = "<group>"; };
-		BBECEFD6D91F9E598A6BCB03E9553493 /* LazyImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LazyImage.xcconfig; sourceTree = "<group>"; };
+		A06529C13F1745A7DCFF4B6C307F2A29 /* LazyImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LazyImage.xcconfig; sourceTree = "<group>"; };
+		A41495C0EDB75798F56CC0AC89F723B3 /* LazyImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LazyImage.framework; path = LazyImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C1394B1024EA8216EA51B166C14B99 /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		A898D6230A53F820FAE62ED401F47F8F /* LazyImage+Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Error.swift"; path = "Library/LazyImage+Error.swift"; sourceTree = "<group>"; };
+		B16485AC90BF71067D3B60C2812B8643 /* LazyImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyImageView.swift; path = Library/LazyImageView.swift; sourceTree = "<group>"; };
+		B50DAFC87157B1F14B6C8C036E25529F /* LazyImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyImage.swift; path = Library/LazyImage.swift; sourceTree = "<group>"; };
 		C2305226AE8A736EB3757C0EEDEE4CB4 /* Pods-CodeChallengeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallengeTests-Info.plist"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC73222141DD33422BA8F40A812B3E6C /* Pods_CodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallengeTests.framework; path = "Pods-CodeChallengeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB807AF755372E93893BE461EE738021 /* EncryptedStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EncryptedStore.m; path = "Incremental Store/EncryptedStore.m"; sourceTree = "<group>"; };
 		CCA7485EE5480E1B982953D30B4C7F83 /* Pods-CodeChallengeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallengeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D25B0F50DED09A794C0BA0DAC3CE861A /* LazyImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LazyImage-dummy.m"; sourceTree = "<group>"; };
+		D2BBA8B082DABBCCDDD919938521FA37 /* SQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLCipher-dummy.m"; sourceTree = "<group>"; };
 		DED8D4760BA7F957BE922A75F44CFFFB /* Pods-CodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		DEF2CA189DC0438145668284ABFA6500 /* Pods-CodeChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1388337B74A8003CD721ECC217C24BA /* Pods-CodeChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodeChallengeTests-umbrella.h"; sourceTree = "<group>"; };
 		E3651540792D56712E5E3CC62187DDD5 /* Pods-CodeChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodeChallenge-umbrella.h"; sourceTree = "<group>"; };
 		E3ECD8DF981A2C14B325CFE00C7A2B3B /* Pods-CodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		EB3071CF2F89599B72BC6455D1D47675 /* EncryptedCoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EncryptedCoreData-umbrella.h"; sourceTree = "<group>"; };
 		EE073D464FBF043B2AEC30E6C18FF396 /* Pods-CodeChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F07783B4169967D664AFFFEA4FFAC514 /* LazyImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyImageView.swift; path = Library/LazyImageView.swift; sourceTree = "<group>"; };
+		EE379134555874067FCB3CCE6481B423 /* Pods_CodeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallengeTests.framework; path = "Pods-CodeChallengeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB23701CC29A529F3D47C4DE1BC089F /* LazyImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LazyImage-Info.plist"; sourceTree = "<group>"; };
+		F3A2BB9C0A4897E64DA6D1F42DB8ABBA /* LazyImage+Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Network.swift"; path = "Library/LazyImage+Network.swift"; sourceTree = "<group>"; };
+		F6448D8750F9A04A2575364853F0E00F /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; path = sqlite3.c; sourceTree = "<group>"; };
 		F8B069DE09A157CCE65046ACD9127BB1 /* Pods-CodeChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDB44EB1978E9012028A7BFDF8115BD7 /* LazyImage+Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LazyImage+Storage.swift"; path = "Library/LazyImage+Storage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E5D6A65EC9C67A24DCDE3D2132ED8CA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A253E4D4D9F47B24E891B24E0AA40801 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		28BF40E60B381194EDDD0B6D3539DE4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -116,11 +164,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3DEB4AB9CC57709F1792E85D9255F770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C8CF99AC6013AA3F267B8388D98CF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5916653884B9BE664035AF31E6E44770 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CCB496346028F60644CE599F3BEE01A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E84D5687F80774380B7DD3638869ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309E50DFDD4E100084ECC503900FE977 /* CoreData.framework in Frameworks */,
+				C9FF7C69FCDDF32E8CFE9EEBB942C4BC /* Foundation.framework in Frameworks */,
+				0864D56870C4B0375AD6F4C00F23E6A1 /* Security.framework in Frameworks */,
+				97CB0C6FE271B4AB878459803A57BD8B /* SQLCipher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A1DBA4A473672C1253A65F92ABCFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA78F45D40018F1D7BC692D5FDB887C /* Foundation.framework in Frameworks */,
+				DA98F7C2AB0F011DA2C2C42CCD84050F /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,39 +211,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07DDE8FB6FE813A303C26D91EB1BEC04 /* LazyImage */ = {
+		296913F997AC4FF2C90D79203859C0B8 /* EncryptedCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				697E536B290B112E9E4770EE85729463 /* LazyImage.swift */,
-				16A3E90EE36AB485D5905E6819B1709B /* LazyImage+Error.swift */,
-				B92FCA2195F8A4941300820C55FC2D01 /* LazyImage+Loader.swift */,
-				8AD01FD04C0173E8CC86C3619AA8B640 /* LazyImage+Network.swift */,
-				93822E51B23652EFF0D5AD2D21598DF9 /* LazyImage+Resizing.swift */,
-				4AE224593191D65B158D1B8FC010A9F1 /* LazyImage+Storage.swift */,
-				F07783B4169967D664AFFFEA4FFAC514 /* LazyImageView.swift */,
-				95843E3FB3042558ADB4EE68CBF0D100 /* Support Files */,
+				934C04E0A13F660A46A3698B14DACB84 /* EncryptedStore.h */,
+				CB807AF755372E93893BE461EE738021 /* EncryptedStore.m */,
+				D433E685891F37FA63CE941475711808 /* Support Files */,
 			);
-			name = LazyImage;
-			path = LazyImage;
+			name = EncryptedCoreData;
+			path = EncryptedCoreData;
 			sourceTree = "<group>";
 		};
-		124DA76A5EEE7BE3319B14CD02E2682D /* Products */ = {
+		47E345E3663604F189B0E0443F4AC199 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4F092F499A5B3815172BB4505A8C667 /* LazyImage.framework */,
-				B25A001471803E9BB4BCA57CBE231406 /* Pods_CodeChallenge.framework */,
-				CC73222141DD33422BA8F40A812B3E6C /* Pods_CodeChallengeTests.framework */,
-				1BD024F6CBEBB87BB7EF221CC9D72344 /* Pods_CodeChallengeUITests.framework */,
+				21098FFA01BB72A972F386E4C0106A6A /* EncryptedCoreData.framework */,
+				A41495C0EDB75798F56CC0AC89F723B3 /* LazyImage.framework */,
+				250EC5ADBEBD66DD73B324916263A8AE /* Pods_CodeChallenge.framework */,
+				EE379134555874067FCB3CCE6481B423 /* Pods_CodeChallengeTests.framework */,
+				9B7CC03A4E4FD7E0F956D92BD21C95B2 /* Pods_CodeChallengeUITests.framework */,
+				308EC484E36A9B86E5E94F8AD73128FA /* SQLCipher.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2EAC4D42342B64C4C758DE1C28B5B54B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				07DDE8FB6FE813A303C26D91EB1BEC04 /* LazyImage */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		4A37F506CF59BBCBD1B0AB26DBB8A2C1 /* Pods-CodeChallengeUITests */ = {
@@ -203,6 +268,43 @@
 			path = "Target Support Files/Pods-CodeChallenge";
 			sourceTree = "<group>";
 		};
+		5FDBF79F1D99D04B032A6B02A6D14D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69A823C68B094A53D9EE4980D0CA4C35 /* SQLCipher.framework */,
+				E8266EA27FE915407E4F26D9FF51753D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67621D3F0E0727C658583FDECE848F35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82E931B5C83A570B2FA1E5611783271E /* SQLCipher.modulemap */,
+				2D1AF141F9EDD2FAFD8B17ACBDF1FD0E /* SQLCipher.xcconfig */,
+				D2BBA8B082DABBCCDDD919938521FA37 /* SQLCipher-dummy.m */,
+				09EBB563435508994254BFA39AC83363 /* SQLCipher-Info.plist */,
+				08A5AD621A83D0FF67B3E9891A4E114D /* SQLCipher-prefix.pch */,
+				72118DCF9DDA04D6C45A8B4CEF3501F3 /* SQLCipher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLCipher";
+			sourceTree = "<group>";
+		};
+		77270F58592B9DC709941B0F8E47C96A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3938EA0DAE36B37E8BBFE2181237B007 /* LazyImage.modulemap */,
+				A06529C13F1745A7DCFF4B6C307F2A29 /* LazyImage.xcconfig */,
+				D25B0F50DED09A794C0BA0DAC3CE861A /* LazyImage-dummy.m */,
+				EFB23701CC29A529F3D47C4DE1BC089F /* LazyImage-Info.plist */,
+				383C59ACC8D16710CFCDE2F4850E13AA /* LazyImage-prefix.pch */,
+				2F9ECE517EEF0149B30F6172DB2E6C79 /* LazyImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LazyImage";
+			sourceTree = "<group>";
+		};
 		7BD4CB0D52D61D2F820906D54BE9D22C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,50 +331,98 @@
 			path = "Target Support Files/Pods-CodeChallengeTests";
 			sourceTree = "<group>";
 		};
-		95843E3FB3042558ADB4EE68CBF0D100 /* Support Files */ = {
+		850E2DFA555B6DE2CF3C262D5B196340 /* LazyImage */ = {
 			isa = PBXGroup;
 			children = (
-				6189E2352438C18F26EE6607FC86B4A2 /* LazyImage.modulemap */,
-				BBECEFD6D91F9E598A6BCB03E9553493 /* LazyImage.xcconfig */,
-				8B430DA09DABB864EEC1E99C532C6D12 /* LazyImage-dummy.m */,
-				B175E6DF72E05975F264ECF90928C52E /* LazyImage-Info.plist */,
-				9995148E15B916E3BCD386604F6978E8 /* LazyImage-prefix.pch */,
-				8DC4D0335C254DBDB11D3A785A39530B /* LazyImage-umbrella.h */,
+				B50DAFC87157B1F14B6C8C036E25529F /* LazyImage.swift */,
+				A898D6230A53F820FAE62ED401F47F8F /* LazyImage+Error.swift */,
+				38129B3A6904BBC6D7033EC8B9DD2A8C /* LazyImage+Loader.swift */,
+				F3A2BB9C0A4897E64DA6D1F42DB8ABBA /* LazyImage+Network.swift */,
+				95637D1ECDE3FE9A1F4891DCF8F427F9 /* LazyImage+Resizing.swift */,
+				FDB44EB1978E9012028A7BFDF8115BD7 /* LazyImage+Storage.swift */,
+				B16485AC90BF71067D3B60C2812B8643 /* LazyImageView.swift */,
+				77270F58592B9DC709941B0F8E47C96A /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LazyImage";
+			name = LazyImage;
+			path = LazyImage;
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		95C21E7BA1A852DF366095E3D6AAEE9D /* common */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				F6448D8750F9A04A2575364853F0E00F /* sqlite3.c */,
+				A4C1394B1024EA8216EA51B166C14B99 /* sqlite3.h */,
 			);
-			name = iOS;
+			name = common;
+			sourceTree = "<group>";
+		};
+		CC576791F6CBC4EEE50A3AF9224867DE /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				95C21E7BA1A852DF366095E3D6AAEE9D /* common */,
+				67621D3F0E0727C658583FDECE848F35 /* Support Files */,
+			);
+			name = SQLCipher;
+			path = SQLCipher;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2EAC4D42342B64C4C758DE1C28B5B54B /* Pods */,
-				124DA76A5EEE7BE3319B14CD02E2682D /* Products */,
+				5FDBF79F1D99D04B032A6B02A6D14D7F /* Frameworks */,
+				D4881B8457372FD0DA40B13061219BCC /* Pods */,
+				47E345E3663604F189B0E0443F4AC199 /* Products */,
 				7BD4CB0D52D61D2F820906D54BE9D22C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D433E685891F37FA63CE941475711808 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				9ECAAF2DE9FF4FEC5BB6C0100908CB5F /* EncryptedCoreData.modulemap */,
+				128BCBF4D0F0A6F24095C5DF31A33A21 /* EncryptedCoreData.xcconfig */,
+				96902B75CF1DEF7E17453B3BE9CD8E8B /* EncryptedCoreData-dummy.m */,
+				41B728BCAC3413431312FCB9A27755E5 /* EncryptedCoreData-Info.plist */,
+				4FF33981352EFBA19F0105166A48D103 /* EncryptedCoreData-prefix.pch */,
+				EB3071CF2F89599B72BC6455D1D47675 /* EncryptedCoreData-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/EncryptedCoreData";
+			sourceTree = "<group>";
+		};
+		D4881B8457372FD0DA40B13061219BCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				296913F997AC4FF2C90D79203859C0B8 /* EncryptedCoreData */,
+				850E2DFA555B6DE2CF3C262D5B196340 /* LazyImage */,
+				CC576791F6CBC4EEE50A3AF9224867DE /* SQLCipher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8266EA27FE915407E4F26D9FF51753D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				14CCB2D48CE18431A543C422EFC772EA /* CoreData.framework */,
+				277C7B64C59D6F73BFE830A36FEB10D9 /* Foundation.framework */,
+				3FE26B5BACA4817C922168B48FA60219 /* Security.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		574B7B5AB743A95D4D7763FA1636F685 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CA66644BAB3DC868F057EEE067B620 /* EncryptedCoreData-umbrella.h in Headers */,
+				E6EC7BC88530FFB93EC6787865F48F7A /* EncryptedStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9521592F4CDD312292C82CB696343CEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,11 +431,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C824CA1FEE967B254481832B05528996 /* Headers */ = {
+		B9540EF6EA7BA63F031A55C64775281B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73FB297C16179A378BEEEA87C6944DB4 /* Pods-CodeChallenge-umbrella.h in Headers */,
+				27FC6656142AFAD9D2CE415B1BFDDDE2 /* SQLCipher-umbrella.h in Headers */,
+				7AE067A2828087C25DF46B1E3518F650 /* sqlite3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE9386F69E9E57CFA9FE1C07B7E5D4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F207111A79D5F6917FA7F5636A50A88 /* Pods-CodeChallenge-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,23 +467,43 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6F462DCF4B0A0327A7639664B326B649 /* Pods-CodeChallenge */ = {
+		1BB57155B58B2AC53B03D0EB7B4119A4 /* Pods-CodeChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 435B14730D3EF47E787D4014834B1F12 /* Build configuration list for PBXNativeTarget "Pods-CodeChallenge" */;
+			buildConfigurationList = D4C30C83BD0338325F2CFE24802AEFBE /* Build configuration list for PBXNativeTarget "Pods-CodeChallenge" */;
 			buildPhases = (
-				C824CA1FEE967B254481832B05528996 /* Headers */,
-				C611A295B1F459B33EF88717D271D4BE /* Sources */,
-				1E5D6A65EC9C67A24DCDE3D2132ED8CA /* Frameworks */,
-				596A44CC9D9452884D0153ECF1387755 /* Resources */,
+				BBE9386F69E9E57CFA9FE1C07B7E5D4D /* Headers */,
+				3B4969F084C8105B32616B0B012E0741 /* Sources */,
+				3DEB4AB9CC57709F1792E85D9255F770 /* Frameworks */,
+				61EBF4F9DE033D5D0E639E9989F16A55 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				96715F16DECA4C4C3D96BB7638E8C13A /* PBXTargetDependency */,
+				8AABD56F3047703A91664E26AF3E2854 /* PBXTargetDependency */,
+				6C96BD698A87E48DE1604FEFF325F2D3 /* PBXTargetDependency */,
+				7EAFC5CB12C85F3399D4439240EC4E01 /* PBXTargetDependency */,
 			);
 			name = "Pods-CodeChallenge";
 			productName = "Pods-CodeChallenge";
-			productReference = B25A001471803E9BB4BCA57CBE231406 /* Pods_CodeChallenge.framework */;
+			productReference = 250EC5ADBEBD66DD73B324916263A8AE /* Pods_CodeChallenge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		29C9F2B3357EB7670835AFE4D1988994 /* SQLCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643D867D7959563FF5A33F6EF96FB313 /* Build configuration list for PBXNativeTarget "SQLCipher" */;
+			buildPhases = (
+				B9540EF6EA7BA63F031A55C64775281B /* Headers */,
+				7D5D5D6D5462A1BBCA0884ED910AA170 /* Sources */,
+				D4A1DBA4A473672C1253A65F92ABCFCC /* Frameworks */,
+				EA78190A17FE95FACC1C715D557B1146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLCipher;
+			productName = SQLCipher;
+			productReference = 308EC484E36A9B86E5E94F8AD73128FA /* SQLCipher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98A95678C9424E2B6E7EACA5730F1375 /* Pods-CodeChallengeUITests */ = {
@@ -343,7 +522,7 @@
 			);
 			name = "Pods-CodeChallengeUITests";
 			productName = "Pods-CodeChallengeUITests";
-			productReference = 1BD024F6CBEBB87BB7EF221CC9D72344 /* Pods_CodeChallengeUITests.framework */;
+			productReference = 9B7CC03A4E4FD7E0F956D92BD21C95B2 /* Pods_CodeChallengeUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A40407559B56A48A7ED979FDF05B67A /* LazyImage */ = {
@@ -361,7 +540,26 @@
 			);
 			name = LazyImage;
 			productName = LazyImage;
-			productReference = A4F092F499A5B3815172BB4505A8C667 /* LazyImage.framework */;
+			productReference = A41495C0EDB75798F56CC0AC89F723B3 /* LazyImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA4F927D76779CAE2F7C3D3140DCF19F /* EncryptedCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B039D0F7C6495C6FDACB8D8DE28BE0C4 /* Build configuration list for PBXNativeTarget "EncryptedCoreData" */;
+			buildPhases = (
+				574B7B5AB743A95D4D7763FA1636F685 /* Headers */,
+				4FF6AD8E38A3749E12F1E0A3533F2FDC /* Sources */,
+				5E84D5687F80774380B7DD3638869ACF /* Frameworks */,
+				C6C92B1B2233261E7FF3D0CD93E83A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC4837125DC2FEB4615D21A1C50866B /* PBXTargetDependency */,
+			);
+			name = EncryptedCoreData;
+			productName = EncryptedCoreData;
+			productReference = 21098FFA01BB72A972F386E4C0106A6A /* EncryptedCoreData.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AD1DCBE627110DAB94F134A0DD263204 /* Pods-CodeChallengeTests */ = {
@@ -380,7 +578,7 @@
 			);
 			name = "Pods-CodeChallengeTests";
 			productName = "Pods-CodeChallengeTests";
-			productReference = CC73222141DD33422BA8F40A812B3E6C /* Pods_CodeChallengeTests.framework */;
+			productReference = EE379134555874067FCB3CCE6481B423 /* Pods_CodeChallengeTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -400,27 +598,22 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 124DA76A5EEE7BE3319B14CD02E2682D /* Products */;
+			productRefGroup = 47E345E3663604F189B0E0443F4AC199 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				AA4F927D76779CAE2F7C3D3140DCF19F /* EncryptedCoreData */,
 				9A40407559B56A48A7ED979FDF05B67A /* LazyImage */,
-				6F462DCF4B0A0327A7639664B326B649 /* Pods-CodeChallenge */,
+				1BB57155B58B2AC53B03D0EB7B4119A4 /* Pods-CodeChallenge */,
 				AD1DCBE627110DAB94F134A0DD263204 /* Pods-CodeChallengeTests */,
 				98A95678C9424E2B6E7EACA5730F1375 /* Pods-CodeChallengeUITests */,
+				29C9F2B3357EB7670835AFE4D1988994 /* SQLCipher */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		150F60DC5035B036BB5DF7AD638207C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		596A44CC9D9452884D0153ECF1387755 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -434,7 +627,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		61EBF4F9DE033D5D0E639E9989F16A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9613A6E2DA78630BEF138B8177E1C793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C92B1B2233261E7FF3D0CD93E83A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA78190A17FE95FACC1C715D557B1146 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -460,6 +674,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3B4969F084C8105B32616B0B012E0741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E6D4674ED83EDBC7C4E4FA87DAC915 /* Pods-CodeChallenge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF6AD8E38A3749E12F1E0A3533F2FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58044DDCC7351CC9576E6A75225397F /* EncryptedCoreData-dummy.m in Sources */,
+				EF6A4D5705DE7226CADF1A1EAE148703 /* EncryptedStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E75105B79CE2E71BA797989181A5CFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,41 +706,96 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C611A295B1F459B33EF88717D271D4BE /* Sources */ = {
+		7D5D5D6D5462A1BBCA0884ED910AA170 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F79B2E69D2179FFFE67ED1393BA99F /* Pods-CodeChallenge-dummy.m in Sources */,
+				BE55E968A71AFCD0D2115CA2E4416149 /* SQLCipher-dummy.m in Sources */,
+				801C95D084D10457112458480B7623B4 /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		96715F16DECA4C4C3D96BB7638E8C13A /* PBXTargetDependency */ = {
+		6C96BD698A87E48DE1604FEFF325F2D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LazyImage;
 			target = 9A40407559B56A48A7ED979FDF05B67A /* LazyImage */;
-			targetProxy = A5CD43EB0DAC7044CA07F00960351B60 /* PBXContainerItemProxy */;
+			targetProxy = 6607DB19B7E5DC187FCA3189AFA0F6D2 /* PBXContainerItemProxy */;
+		};
+		7EAFC5CB12C85F3399D4439240EC4E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 29C9F2B3357EB7670835AFE4D1988994 /* SQLCipher */;
+			targetProxy = 20045B67B066BB89A7E4036F2AE978EE /* PBXContainerItemProxy */;
+		};
+		8AABD56F3047703A91664E26AF3E2854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EncryptedCoreData;
+			target = AA4F927D76779CAE2F7C3D3140DCF19F /* EncryptedCoreData */;
+			targetProxy = D0C30DCC8E2435A104BCE67CE5EE6D14 /* PBXContainerItemProxy */;
 		};
 		A44E50CEF4E4467C7C816D6E35D78C98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CodeChallenge";
-			target = 6F462DCF4B0A0327A7639664B326B649 /* Pods-CodeChallenge */;
+			target = 1BB57155B58B2AC53B03D0EB7B4119A4 /* Pods-CodeChallenge */;
 			targetProxy = F6B36FFE1F71DEE713672C69CA3F6BE9 /* PBXContainerItemProxy */;
+		};
+		ECC4837125DC2FEB4615D21A1C50866B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 29C9F2B3357EB7670835AFE4D1988994 /* SQLCipher */;
+			targetProxy = 84F6346F8A6C3B74068A923AF2BE7E06 /* PBXContainerItemProxy */;
 		};
 		EF8839FCFBF9959B160691F70950412F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CodeChallenge";
-			target = 6F462DCF4B0A0327A7639664B326B649 /* Pods-CodeChallenge */;
+			target = 1BB57155B58B2AC53B03D0EB7B4119A4 /* Pods-CodeChallenge */;
 			targetProxy = DE383A8A0F7A767FD94A5CD501A791B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1F81728F51F4216BD3C7C3DC316660F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1AF141F9EDD2FAFD8B17ACBDF1FD0E /* SQLCipher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/SQLCipher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4F221B5486E9F34BDB7B570B83A141B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBECEFD6D91F9E598A6BCB03E9553493 /* LazyImage.xcconfig */;
+			baseConfigurationReference = A06529C13F1745A7DCFF4B6C307F2A29 /* LazyImage.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -533,6 +819,41 @@
 				MODULEMAP_FILE = "Target Support Files/LazyImage/LazyImage.modulemap";
 				PRODUCT_MODULE_NAME = LazyImage;
 				PRODUCT_NAME = LazyImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54D7A8CFEBF612D71593E7B5797CC044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1AF141F9EDD2FAFD8B17ACBDF1FD0E /* SQLCipher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/SQLCipher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -584,7 +905,7 @@
 		};
 		6ADACB4FF9F4B53D81F80D433D2472D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBECEFD6D91F9E598A6BCB03E9553493 /* LazyImage.xcconfig */;
+			baseConfigurationReference = A06529C13F1745A7DCFF4B6C307F2A29 /* LazyImage.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -608,6 +929,81 @@
 				MODULEMAP_FILE = "Target Support Files/LazyImage/LazyImage.modulemap";
 				PRODUCT_MODULE_NAME = LazyImage;
 				PRODUCT_NAME = LazyImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DCF818563F8EE75DC94CFB44D5BE8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED8D4760BA7F957BE922A75F44CFFFB /* Pods-CodeChallenge.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74841C8F447615CFFA9527D2AF30F65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128BCBF4D0F0A6F24095C5DF31A33A21 /* EncryptedCoreData.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EncryptedCoreData/EncryptedCoreData-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EncryptedCoreData/EncryptedCoreData-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EncryptedCoreData/EncryptedCoreData.modulemap";
+				PRODUCT_MODULE_NAME = EncryptedCoreData;
+				PRODUCT_NAME = EncryptedCoreData;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -651,6 +1047,41 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87F8739037C13C876727EE27531F03FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128BCBF4D0F0A6F24095C5DF31A33A21 /* EncryptedCoreData.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EncryptedCoreData/EncryptedCoreData-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EncryptedCoreData/EncryptedCoreData-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EncryptedCoreData/EncryptedCoreData.modulemap";
+				PRODUCT_MODULE_NAME = EncryptedCoreData;
+				PRODUCT_NAME = EncryptedCoreData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -858,7 +1289,7 @@
 			};
 			name = Debug;
 		};
-		E6DF148154A2F70EE72F370747F0AEA6 /* Debug */ = {
+		E779848EC871481F4C07159D82E5156C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3ECD8DF981A2C14B325CFE00C7A2B3B /* Pods-CodeChallenge.debug.xcconfig */;
 			buildSettings = {
@@ -896,45 +1327,6 @@
 			};
 			name = Debug;
 		};
-		EA17283D8EBBF057999BA39A770E94CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DED8D4760BA7F957BE922A75F44CFFFB /* Pods-CodeChallenge.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -947,20 +1339,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		435B14730D3EF47E787D4014834B1F12 /* Build configuration list for PBXNativeTarget "Pods-CodeChallenge" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6DF148154A2F70EE72F370747F0AEA6 /* Debug */,
-				EA17283D8EBBF057999BA39A770E94CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1391485F05B41BD35738A433056B7FA /* Debug */,
 				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643D867D7959563FF5A33F6EF96FB313 /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D7A8CFEBF612D71593E7B5797CC044 /* Debug */,
+				1F81728F51F4216BD3C7C3DC316660F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -979,6 +1371,24 @@
 			buildConfigurations = (
 				7A2486F87ABC8E905F486BDB49B1370F /* Debug */,
 				B2CE768769367A40E40D8DCB17D5A496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B039D0F7C6495C6FDACB8D8DE28BE0C4 /* Build configuration list for PBXNativeTarget "EncryptedCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F8739037C13C876727EE27531F03FD /* Debug */,
+				74841C8F447615CFFA9527D2AF30F65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C30C83BD0338325F2CFE24802AEFBE /* Build configuration list for PBXNativeTarget "Pods-CodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E779848EC871481F4C07159D82E5156C /* Debug */,
+				6DCF818563F8EE75DC94CFB44D5BE8AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

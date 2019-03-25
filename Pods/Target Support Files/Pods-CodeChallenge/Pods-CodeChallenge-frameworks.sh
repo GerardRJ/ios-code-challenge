@@ -153,10 +153,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/EncryptedCoreData/EncryptedCoreData.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LazyImage/LazyImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/EncryptedCoreData/EncryptedCoreData.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LazyImage/LazyImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

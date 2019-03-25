@@ -164,27 +164,36 @@ typedef NS_ENUM(NSInteger, CodeChallengeErrorCodes){
  */
 - (nonnull NSOperation *)createABatchDeleteOperation
 {
+// TODO - can't delete with a batch operation unless we have an unencrypted db.
+//    AppDelegate *appdelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+//    NSPersistentContainer *persistentContainer = [appdelegate persistentContainer];
+//
+//    NSBlockOperation *batchDeleteOperation = [NSBlockOperation blockOperationWithBlock:^{
+//        // We might hold on to this operation for a while but we don't need anything in it
+//        // so we'll make sure everything is released.
+//        @autoreleasepool {
+//            // https://developer.apple.com/library/archive/featuredarticles/CoreData_Batch_Guide/BatchDeletes/BatchDeletes.html
+//            NSFetchRequest *fetch = [NSFetchRequest fetchRequestWithEntityName:@"Exhibitor"];
+//            NSBatchDeleteRequest *request = [[NSBatchDeleteRequest alloc] initWithFetchRequest:fetch];
+//
+//            NSManagedObjectContext *managedObjectContext = [persistentContainer viewContext];
+//            NSError *batchDeleteError = nil;
+//            [managedObjectContext executeRequest:request error:&batchDeleteError];
+//            if (batchDeleteError != nil) {
+//                os_log_error(OS_LOG_DEFAULT, "CodeChallenge error: Unable to batch delete.");
+//            }
+//        }
+//    }];
+//    batchDeleteOperation.qualityOfService = NSQualityOfServiceUtility;
+    
     AppDelegate *appdelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    NSPersistentContainer *persistentContainer = [appdelegate persistentContainer];
-
+    
     NSBlockOperation *batchDeleteOperation = [NSBlockOperation blockOperationWithBlock:^{
-        // We might hold on to this operation for a while but we don't need anything in it
-        // so we'll make sure everything is released.
-        @autoreleasepool {
-            // https://developer.apple.com/library/archive/featuredarticles/CoreData_Batch_Guide/BatchDeletes/BatchDeletes.html
-            NSFetchRequest *fetch = [NSFetchRequest fetchRequestWithEntityName:@"Exhibitor"];
-            NSBatchDeleteRequest *request = [[NSBatchDeleteRequest alloc] initWithFetchRequest:fetch];
-
-            NSManagedObjectContext *managedObjectContext = [persistentContainer viewContext];
-            NSError *batchDeleteError = nil;
-            [managedObjectContext executeRequest:request error:&batchDeleteError];
-            if (batchDeleteError != nil) {
-                os_log_error(OS_LOG_DEFAULT, "CodeChallenge error: Unable to batch delete.");
-            }
-        }
+        [appdelegate recreatePersistentStores];
     }];
+    
     batchDeleteOperation.qualityOfService = NSQualityOfServiceUtility;
-
+    
     return batchDeleteOperation;
 }
 
